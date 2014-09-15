@@ -2,3 +2,8 @@ body {
 font-family: 'Roboto', sans-serif; 
     
 }
+
+a a:link  {color:#e01359; background-color:transparent}
+a:visited {color:#880c38; background-color:transparent}
+a:hover   {color:#ff0056; background-color:transparent}
+a:active  {color:#ff4486; background-color:transparent}

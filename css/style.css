@@ -1,9 +1,121 @@
 body {
-font-family: 'Roboto', sans-serif; 
-    
+    font-family: 'Roboto', sans-serif; 
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    background-color:#1a1a1a;
+}
+
+::selection {
+	background: #00ff58; /* Safari */
+	}
+::-moz-selection {
+	background: #00ff58; /* Firefox */
+}
+
+.unselectable {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 a a:link  {color:#e01359; background-color:transparent}
 a:visited {color:#880c38; background-color:transparent}
 a:hover   {color:#ff0056; background-color:transparent}
 a:active  {color:#ff4486; background-color:transparent}
+
+.logo{
+    background-image: url(/img/ga_logo.svg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 7.5em;
+    height:7.5em;
+    position:fixed;
+    top: 0;
+    left: 5%;
+    background-color:rgba(33, 33, 33, 0.63);
+    z-index:20;
+    
+   
+}
+
+.title {  
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 90pt;
+}
+
+.space{
+    height: 7.5em;
+}
+
+.content{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color:#fff;
+}
+
+.footer{
+    margin-top:2em;
+    margin-bottom:2em;
+    margin-left: 5%;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-device-width: 1315px), screen and (max-width: 1315px) {
+
+}
+
+@media only screen and (max-device-width: 1024px), screen and (max-width: 1024px) {
+  .logo{
+        width: 5em;
+        height: 5em;
+    }
+    
+    .space{
+    height: 5em;
+    }
+}
+
+@media only screen and (max-device-width: 760px), screen and (max-width: 760px) {
+  .logo{
+        width: 3em;
+        height: 3em;
+    }
+    
+    .space{
+    height: 3em;
+    }
+}
+
+@media only screen and (max-device-width: 500px), screen and (max-width: 500px) {
+  .logo{
+        position:relative;
+        background-size:contain;
+        left: 0%;
+        width: 100%;
+        height: 3em;
+    }
+    
+    .space{
+    height: 3em;
+    }
+}

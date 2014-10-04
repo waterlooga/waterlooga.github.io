@@ -21,12 +21,7 @@ body {
   -ms-user-select: none;
 }
 
-/*
-a a:link  {color:#e01359; background-color:transparent}
-a:visited {color:#880c38; background-color:transparent}
-a:hover   {color:#ff0056; background-color:transparent}
-a:active  {color:#ff4486; background-color:transparent}
-*/
+
 .logo{
     background-image: url(/img/ga_logo.svg);
     background-repeat: no-repeat;
@@ -122,6 +117,13 @@ a:active  {color:#ff4486; background-color:transparent}
 	outline: thin dotted #444;
 	outline: 5px auto -webkit-focus-ring-color;
 	outline-offset: -2px;
+}
+
+.mission{
+ 
+    background-color: #dedede;
+    color:white;
+    padding: 2em;
 }
 
 
